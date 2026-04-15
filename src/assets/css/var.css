@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --color-01: #010D26;
+    --color-02: #0455BF;
+    --color-03: #022859;
+    --color-04: #0487D9;
+    --color-05: #cee8f2;
+
+    --font-primary:"Orbitron", sans-serif;
+    --font-secundary:"Noto Sans", sans-serif;
+
+    /*variações de cores primarias*/
+     
+}
