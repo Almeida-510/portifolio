@@ -6,30 +6,41 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    height: 50vh;
+    height: 100vh;
 }
 
 .hero-copy {
     width: 700px;
     padding: 1em;
+    z-index: 1;
 }
 
 .hero-copy__titulo {
+    color: var(--color-04);
     font-size: 3em;
 }
 
 .hero-copy__texto {
+    color: #f6f6f6;
     padding-top: 1.5em;
     font-size: 0.8em;
 }
 
 .hero-copy__titulo,
 .hero-copy__texto {
-    color: #f6f6f6;
     text-align: center;
     font-family: var(--font-primary);
     font-weight: lighter;
     letter-spacing: 1px;
+}
+
+.hero-img {
+    height: 70vh;
+    z-index: 0;
+}
+
+.hero-img > img {
+    height: 100%;
 }

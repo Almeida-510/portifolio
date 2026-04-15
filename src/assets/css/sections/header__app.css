@@ -2,9 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 3em;
 
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    
+
 }
 
 .header-button {
@@ -25,5 +30,5 @@
     font-size: 1em;
     font-family: var(--font-primary);
     font-weight: lighter;
-    padding: 0.3em;
+    padding: 0.3em 2em;
 }
